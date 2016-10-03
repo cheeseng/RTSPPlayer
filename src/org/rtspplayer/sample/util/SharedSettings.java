@@ -25,7 +25,7 @@ public class SharedSettings
 	// connection
 	public  int connectionProtocol 		= -1;				// 0 - udp, 1 - tcp, 2 - http, 3 - https, -1 - AUTO
 	public  int connectionDetectionTime = 3000;				// in milliseconds
-	public  int connectionBufferingTime = 1000;				// in milliseconds
+	public  int connectionBufferingTime = 10;				// in milliseconds
 
 	// decoder
 	public  int decoderType = 1;							// 0 - soft, 1 - hard stagefright
